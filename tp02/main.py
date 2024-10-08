@@ -10,7 +10,7 @@ def log(log_filename):
     return decorator
 
 
-@log('the_log.log')
+# @log('the_log.log')
 def hello(name,firstName):
     
     h = f"hello {name} {firstName}"
